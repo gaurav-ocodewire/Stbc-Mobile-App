@@ -1,0 +1,148 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+ion-tabs.tabbed-app.tabs.tabs-md {
+	    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: url(../assets/Church-wgrad2-back.jpg);
+    background-position: 24% 0%;
+}
+
+ion-content.content.content-md {
+    background: transparent;
+}
+.content-ios {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: url(../assets/Church-wgrad2-back.jpg);
+    background-position: 24% 0%;
+}
+.toolbar-md {
+    padding: 4px;
+    min-height: 50px;
+}
+.toolbar-background-md.tabs-ios {
+    border-color: #b2b2b2;
+    background: #3e3c3e;
+    color: #fff;
+}
+.toolbar-title-md {
+    padding: 0 15px 0 50px;
+    font-size: 1.7rem;
+    font-weight: 300;
+    color: #fff;
+}
+.toolbar-background-md {
+    border-color: #b2b2b2;
+    background: #3e3c3e;
+    color: #fff;
+    background-image: url(../assets/logos.png);
+    background-repeat: no-repeat;
+    background-size: 32px;
+    background-position: 10px 10px;
+}
+.toolbar-background-ios {
+    border-color: #b2b2b2;
+    background: #3e3c3e;
+    color: #fff;
+    background-image: url(../assets/logos.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 17px 2px;
+}
+.tabs-md .tab-button {
+    color: #888;
+    border-right: 1px solid #fff;
+}
+.tabs-md .tab-button-icon {
+    color: #888;
+}
+ion-tabs.tabbed-app.tabs.tabs-md .tabbar.show-tabbar{
+    background: #3e3c3e;
+}
+a#tab-t0-3 {
+    border-right: none;
+}
+.logo-baptist {
+    background: transparent
+    /*padding: 22px 2% 12px;
+    border-radius: 3px;
+    text-align: -webkit-center;
+    -webkit-box-shadow: 0px 1px 0px 1px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 1px 0px 1px rgba(255,255,255,1);
+    box-shadow: 0px 0.2px 0px 0.5px rgba(255,255,255,1);
+    */
+}
+ion-card.card.card-md {
+    width: 94%;
+    margin: 5px 10px;
+    background: #9c9c9c;
+    opacity: 0.6;
+}
+.card.card-md .item-md {
+    background-color: transparent;
+}
+.submenu-full {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+.item.menu-item {
+    background: #9c9c9c;
+    opacity: 0.6;
+    margin-left: 0px;
+    padding: 8px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+    color: #254b86;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.tabs-ios .tabbar{
+
+    background: #3e3c3e;
+}
+.tabs-ios .tab-button {
+    color: #888;
+    border-right: 1px solid #fff;
+}
+.toolbar-title-ios{
+    text-align: -webkit-center;
+    font-size: 1.7rem;
+    font-weight: 300;
+    color: #fff;
+    pointer-events: auto;
+    white-space: inherit;
+}
+.toolbar-ios ion-title {
+    left: 0;
+    top: 0;
+    /* padding: 0 90px 1px; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    pointer-events: none;
+}
+
+body.keyboard-is-open ion-tabbar {
+ display: none;
+}body.keyboard-is-open scroll-content {
+ margin-bottom: 0 !important;
+}

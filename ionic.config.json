@@ -1,0 +1,7 @@
+{
+  "name": "southTulsa",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

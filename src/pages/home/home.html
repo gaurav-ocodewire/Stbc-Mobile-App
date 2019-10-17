@@ -1,0 +1,59 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title class="toolbar-ios">South Tulsa Baptist Church</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding  >
+
+  <div class="item row backImg" >
+    <div style="text-align:right" class="col col-50">
+
+    </div>
+    <div style="text-align:left" class="col col-50">
+      <div class="logo-baptist">
+        <img src="assets/Logo.png">
+      </div>
+<!--       <ion-card (tap)="tapEvent($event)">
+        <div class="item menu-item">
+          Schedule
+        </div>
+       -->
+      <!-- Submenu -->
+      <div class="submenu-full">
+
+        <div class="item menu-item"  (click)="launchService
+        ('http://southtulsa.org/what-to-expect/#schedule')">
+          Schedule
+        </div>
+
+
+        <div class="item menu-item" [navPush]="messages">
+          Messages
+        </div>
+
+        <div class="item menu-item" (click)="launchDirections
+        ('http://southtulsa.org/directions/#element6892911_2185601')">
+          Directions
+        </div>
+
+        <div class="item menu-item" (click)="launchEvents
+        ('https://public.serviceu.com/Calendar/?OrgKey=b746bff2-61fa-4917-b0fe-fe4649eb89c0&canSearch=False&dontShowSubscription=True&rendermode=iframe')">
+          Events
+        </div>
+
+        <div class="item menu-item" (click)="launchPastor
+        ('http://southtulsa.org/pastors-greeting/#element7298440_2291141')" >
+          Pastor Greeting
+        </div>
+
+        <div class="item menu-item" [navPush]="connect">
+          Connect Card
+        </div>
+
+      </div>
+      <!-- Submenu ends -->
+    </div>
+  </div>
+
+</ion-content>

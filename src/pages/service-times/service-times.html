@@ -1,0 +1,60 @@
+<!--
+  Generated template for the ServiceTimesPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title class="toolbar-ios">Messages</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+	<div class="item row">
+    <div style="text-align:right" class="col col-50">
+
+    </div>
+    <div style="text-align:left" class="col col-50">
+      <div class="logo-baptist">
+        <img src="assets/Logo.png">
+      </div>
+<!--       <ion-card (tap)="tapEvent($event)">
+        <div class="item menu-item">
+          Schedule
+        </div>
+       -->
+      <!-- Submenu -->
+      <div class="submenu-full">
+
+        <div class="item menu-item"  (click)="launchSundaySouthtulsat('http://southtulsa.org/announcements')">
+          Weekly Video @Southtulsa
+        </div>
+
+        <div class="item menu-item" (click)="launchWatchLive('http://www.vlifetech.com/south-tulsa-baptist-church/#watch-screen')">
+          Watch Live
+        </div>
+
+        <div class="item menu-item" (click)="launchArchive('http://southtulsa.org/archived-messages/#element6892895_2185585')">
+          Archive
+        </div>
+
+        <div class="item menu-item" (click)="launchAudioPodcast('http://southtulsa.sermondrop.com/sermons/#sermon_details_container')" >
+          Audio Podcasts
+        </div>
+
+        <div class="item menu-item"  (click)="launchAudioPodcast('http://www.vlifetech.com/south-tulsa-baptist-church/programs')">
+          24-7 Broadcast
+        </div>
+
+
+      </div>
+      <!-- Submenu ends -->
+    </div>
+  </div>
+
+
+</ion-content>

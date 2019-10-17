@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title class="toolbar-ios">
+      South Tulsa Baptist Church
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="item row">
+    <div style="text-align:right" class="col col-50">
+    
+    </div>
+    <div style="text-align:left" class="col col-50">
+      <div class="logo-baptist">
+        <img src="assets/Logo.png">
+      </div>
+      <!-- Submenu -->
+      <div class="submenu-full">
+
+        <div class="item menu-item" (click)="launchBibleReading
+        ('http://vlifetechnology.com/stbc/app/bible/bible.html')" >
+          Daily Bible Reading
+        </div>
+      
+        <div class="item menu-item" [navPush]="devotional">
+          Devotionals
+        </div>
+      
+        <div class="item menu-item" [navPush]="bibleResources">
+          Bible Study Resourcse
+        </div>
+                          
+        <div class="item menu-item" (click)="launchScripture
+        ('http://fighterverses.com/set-4-core-esv/')">
+          Scripture Memory
+        </div>
+      
+      
+        <div class="item menu-item"(click)="launchEzraProject
+        ('http://southtulsa.org/ezra-project#element7491613_2336328')">
+          Ezra Project
+        </div>
+      
+
+
+      </div>
+      <!-- Submenu ends -->
+    </div>
+  </div>
+</ion-content>

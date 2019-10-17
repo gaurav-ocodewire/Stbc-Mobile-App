@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title class="toolbar-ios">
+      South Tulsa Baptist Church
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+	<div class="item row">
+    <div style="text-align:right" class="col col-50">
+    
+    </div>
+    <div style="text-align:left" class="col col-50">
+      <div class="logo-baptist">
+        <img src="assets/Logo.png">
+      </div>
+      <!-- Submenu -->
+      <div class="submenu-full">
+
+        <div class="item menu-item" (click)="launchStaff('http://southtulsa.org/staff/#element6893449_2185576')">
+          South Tulsa Staff
+        </div>
+      
+        <div class="item menu-item" (click)="launchExpect('http://southtulsa.org/what-to-expect/#element6893445_2181163')">
+          What to Expect
+        </div>
+      
+        <div class="item menu-item" (click)="lunchBeliefs('http://southtulsa.org/what-we-believe/#element6892888_2185578')">
+          Beliefs
+        </div>
+      
+        <div class="item menu-item"(click)="lunchOurStory('http://southtulsa.org/our-story/#element6893447_2181164')">
+          Our Story
+        </div>
+      
+        <div class="item menu-item" [navPush]="thisweek">
+          South Tulsa This Week
+        </div>
+        
+        <div class="item menu-item"(click)="lunchOurStory('http://southtulsa.org/missions-southtulsa')">
+          Missions @ South Tulsa
+        </div>
+        
+         
+        
+      </div>
+      <!-- Submenu ends -->
+    </div>
+  </div>
+</ion-content>
